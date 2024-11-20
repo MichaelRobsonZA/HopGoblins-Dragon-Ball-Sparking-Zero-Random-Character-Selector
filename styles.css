@@ -1,0 +1,37 @@
+body {
+    padding-top: 50px;
+}
+
+.character-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.player-section {
+    width: 45%;
+}
+
+.character-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.character-grid img {
+    width: 100px;
+    height: auto;
+}
+
+.player-title {
+    font-size: 2em;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+}
+
+.separator {
+    border-top: 2px solid #000;
+    margin: 20px 0;
+}

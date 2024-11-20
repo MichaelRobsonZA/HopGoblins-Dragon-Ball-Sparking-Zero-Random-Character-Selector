@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball Sparking Zero Random Character Selector</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Dragon Ball Sparking Zero Random Character Selector</h1>
+        <div class="text-center my-4">
+            <button class="btn btn-primary" onclick="selectMode('1v1')">1v1 Battle</button>
+            <button class="btn btn-primary" onclick="selectMode('dp')">DP Battle</button>
+            <button class="btn btn-primary" onclick="selectMode('team')">Team Battle</button>
+        </div>
+        <div id="character-list" class="character-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
